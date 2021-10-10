@@ -1,0 +1,1 @@
+"use strict";var _uuid=require("uuid");Object.defineProperty(exports,"__esModule",{value:!0}),exports.Tarea=void 0;function _classCallCheck(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")}var Tarea=function a(b){_classCallCheck(this,a),this.id=(0,_uuid.v4)(),this.descripcion=b,this.completadoEn=""};exports.Tarea=Tarea;

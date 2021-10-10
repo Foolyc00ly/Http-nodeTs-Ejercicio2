@@ -1,0 +1,1 @@
+"use strict";var _ConsoleHandler=require("./Console-Handler.component");Object.defineProperty(exports,"__esModule",{value:!0}),Object.defineProperty(exports,"CONSOLEHandler",{enumerable:!0,get:function get(){return _ConsoleHandler.CONSOLEHandler}}),Object.defineProperty(exports,"Main",{enumerable:!0,get:function get(){return _ConsoleHandler.Main}});

@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.tareaList=exports.error=void 0;var _TareaList=require("../models/Tarea-list.class"),error=function(a){return Promise.reject(a)};exports.error=error;//Instancia de classes
+var tareaList=new _TareaList.TareaList;exports.tareaList=tareaList;
