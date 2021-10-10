@@ -1,0 +1,19 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-typescript","minify"],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": ["."],
+                "alias": {
+                "common": "./src/common",
+                "helpers":"./src/helpers",
+                "config":"./src/config",
+                "models":"./src/models",
+                "spec":"./src/spec",
+                "interfaces":"./src/models/interfaces"
+                }
+            }
+        ]
+    ]
+}
